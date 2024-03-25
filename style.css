@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* .btn-lg {
+  @apply bg-sky-600 hover:bg-sky-700 rounded-md px-6 py-2;
+}
+.btn-red{
+  @apply bg-sky-600 hover:bg-red-700 rounded-md px-6 py-2;
+} */

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv=""X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- margin and padding -->
+  <div class="flex flex-row-reverse space-x-3 space-x-reverse">
+  </div><!-- margin and padding --> 
+  <div class="flex"> <!-- height and weight -->
+    <h1 class="w-1/2 bg-green-600">Hello</h1>
+    <h1 class="w-1/2 bg-blue-600">No one</h1>
+  </div>
+  <div class="flex">
+    <h1 class="w-1/6 bg-green-600">Hello</h1>
+    <h1 class="w-5/6 bg-blue-600">No one</h1>
+  </div>
+  <div class="bg-slate-400 w-full max-w-6xl">Hello World</div>
+<!-- height and width -->
+<!-- font-weight and style -->
+<p class="font-thin italic">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p>
+<!-- Line spacing -->
+<ul class="list-decimal list-inside">
+  <li>C++</li>
+  <li>JavaScript</li>
+  <li>TailwindCSS</li>
+  <li>CSS</li>
+</ul>
+<!-- text capita;ize and text overflow -->
+<p class="h-36 text-ellipsis overflow-hidden normal-case bg-fuchsia-500">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p>
+<!-- text decoration -->
+<p class="text-purple-500 text-justify">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+  <span class="underline decoration-from-font decoration-double decoration-double-600 font-bold">repudiandae repellat totam quisquam</span>
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p>
+<!-- background -->
+<div class="h-60 bg-gradient-to-r from-blue-500 to-red-900">
+  <h1 class="text-center text-5xl font-semibold text-purple-500">Meta Brains</h1>
+</div>
+<div class="div1 bg-contain bg-no-repeat bg-left-bottom"></div>
+<!-- border -->
+<div class="bg-green-400 w-72 h-32 rounded-full m-7"></div>
+<button class="bg-lime-400 w-10/12 h-30 m-7 rounded-full">Zeno</button>
+<!-- border radius -->
+<div class="m-5 border-4 border-pink-400 border-double">
+  Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+</div>
+<!-- divider -->
+<div class="m-5 divide-y-4 divide=fuchsia-300 divide-dotted">
+  <div class="w-36 h-20 bg-fuchsia-500">One</div>
+  <div class="w-36 h-20 bg-fuchsia-500">Two</div>
+  <div class="w-36 h-20 bg-fuchsia-500">Three</div>
+  <div class="w-36 h-20 bg-fuchsia-500">Four</div>
+</div>
+<!-- outline -->
+<div class="h-60 w-60 m-20 bg-slate-300 outline-yellow-300 outline-offset-8 outline-dotted"></div>
+<!-- opacity -->
+<div>
+  <button class="text-black font-bold bg-funchsia-500 w-28 m-5 rounded-full shadow-lg">click here</button>
+  <button class="text-black font-bold bg-orange-500 w-28 m-5 rounded-full shadow-lg shadow-orange-500/50 opacity-7">click here</button>
+  <button class="text black font-bold bg-red-500 w-28 m-5 rounded-full shadow-full shadpw-lg shadpw-red-50">click here</button>
+  <button>click here</button>
+</div>
+<!-- flexbox -->
+<div class="flex flex-nowrap justify-around">
+  <div class="bg-slate-400 grow order-last">One</div>
+  <div class="bg-red-400 grow shrink order-3">Two</div>
+  <div class="bg-blue-400 grow-0">Three</div>
+  <div class="bg-pink-400 grow">Four</div>
+  <div class="bg-orange-400 grow order-first">Five</div>
+</div>
+<!-- Designing: Hover, focus and active styles -->
+<button class="bg-pink-400 rounded-md text-sm px-5 py-2 text-white hover:bg-pink-700 transition ease-in-out delay-100 active:bg-green-300 focus:outline-yellow-700">Click here</button>
+</body>
+<!-- Boost your productivity: apply directive -->
+<button class="bg-sky-600 hover:bg-sky-700 rounded-md px-6 py-2">Save changes</button>
+  <button class="bg-red-600 hover:bg-red-700 rounded-md px-6 py-2">Save</button>
+</html>
